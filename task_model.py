@@ -1,5 +1,5 @@
 import joblib
-model = joblib.load("salary_model.pkl")
+model = joblib.load("Salary_model.pkl")
 
 #predict
 years=int(input("Enter years of experience: "))
