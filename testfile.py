@@ -1,7 +1,7 @@
 # load dataset
 
-import pandas 
-db=pandas.read_csv("salary.csv")
+import pandas as pd 
+db=pd.read_csv("Salary_Data.csv")
 print("Dataset Loaded Sucessfully.")
 
 # Creating features and target.
@@ -19,5 +19,5 @@ print("Model created Sucessfully.")
 
 # Saving trained model
 import joblib
-joblib.dump(model,'salary_model.pkl')
+joblib.dump(model,'Salary_model.pkl')
 print("MODEL SAVED SUCCESSFULLY.")
